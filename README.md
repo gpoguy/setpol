@@ -16,3 +16,6 @@ arg5: registry data
 For example:
 
 setpol.exe "\\cpandl.com\sysvol\cpandl.com\policies\{0EB0D8E0-2599-48AC-A7C4-18099BABFC95}\Machine\registry.pol" "Software\Policies\Windows\System" "REG_DWORD" "AllowX-ForestPolicy-and-RUP" 1
+
+
+Note that polfilemanager.cs has methods to do more than just write settings into .pol files. At this point, setpol is just an example consumer that lets you do just that, but will probably add calls to get and remove settings as well (or feel free to!)
