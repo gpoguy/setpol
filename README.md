@@ -1,6 +1,8 @@
 # setpol
 Lets you write arbitrary registry entries to Group Policy related .pol files (e.g. registry.pol).
 
+NOTE: MAKE SURE YOU BACKUP YOUR POL FILES BEFORE USING THIS, JUST IN CASE!!!!
+
 Command-line utility setpol.exe takes a set of arguments for passing registry entries into a pol file, including:
 
 arg1: policy file path
